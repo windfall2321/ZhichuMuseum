@@ -184,7 +184,7 @@ private fun ExhibitPlaque(
     }
 }
 
-private fun Entity.buildRoom() {
+internal fun Entity.buildRoom() {
     val rose = texturedMaterial("textures/rose-watercolor.png")
     val limestone = texturedMaterial("textures/sand-limestone.png")
     val trim = material(0.68f, 0.47f, 0.30f)
